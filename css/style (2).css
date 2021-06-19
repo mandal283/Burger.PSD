@@ -1,0 +1,176 @@
+
+/**********************8*88*/
+/*responsive***************/
+
+/******************************/
+@media (min-width:320px) and (max-width:480px) {
+
+.header-section{
+	width: 100%;
+	padding: 30px 0px;
+	position: relative;
+}
+.delivari-inner{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.menu .navbar a img{
+	width: 100px;
+}
+.header-section .banner-inner-left .sub-title{
+	text-align: center;
+	width: 100%;
+
+}
+
+.header-section .banner-inner-left .sub-title p{
+	text-align: center;
+	margin: 0;
+	padding: 5px 0px;
+}
+
+.header-section .banner-inner-left h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+.header-section .banner-inner-left h2{
+	text-align: center;
+	font-size:30px ;
+}
+.banner-under{
+	width: 100%;
+	padding: 30px 0px;
+}
+.banner-under-pic{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.banner-under-pic .burger-overly{
+	font-size: 20px;
+}
+
+.burger-right-pic .img-overly h5{
+	font-size: 15px;
+
+}
+.burger-right-pic .img-overly h2{
+	font-size: 20px;
+	padding-right: 100px;
+	
+}
+.choos-section{
+	width: 100%;
+	padding: 30px 0px;
+}
+.choos-section .title-inner p{
+	margin-top: 30px;
+	padding: 0;
+}
+
+.choos-burger{
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+.uppcoming{
+	width: 100%;
+	padding: 30px 0px;
+}
+.uppcoming .upp-inner {
+	padding-bottom: 30px;
+}
+.uppcoming .upp-inner p{
+	padding: 0px;
+	text-align: center;
+}
+
+.discover{
+	text-align: center;
+}
+
+.discover h1{
+font-size: 30px;
+margin-top: 20px;
+}
+
+.discover p{
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.zero-inner{
+	width: 100%;
+
+}
+
+.zero-inner .zero{
+	margin: 0 auto;
+}
+.upp-pic{
+	margin-top: 30px;
+}
+.booking-section{
+	position: relative;
+
+}
+.booking-img .c-pic1{
+	width: 100px;
+	margin-left: -20px;
+}
+.booking-img .c-pic2{
+	position: absolute;
+
+	left: -40px;
+
+}
+.booking-img .c-pic3{
+	width: 40px;
+	margin-top: 50px;
+}
+.booking-title h1{
+	font-size: 20px;
+}
+
+
+
+
+.foter-inner img{
+	width: 200px;
+}
+
+.foter-inner p{
+	padding: 0;
+	text-align: center;
+}
+
+.foter-icon{
+	margin: 0;
+}
+.foter-icon li{
+	margin: 0px;
+}
+
+.end-p{
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+.foter-end-icon{
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,509 @@
+  
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+
+font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*************************************/
+
+
+/*header-section-start*/
+.header-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/group.png) center top no-repeat;
+	background-size: cover;
+	position: relative;
+
+
+}
+.delivari-inner{
+	position: absolute;
+	top: 60px;
+	right: 100px;
+}
+.delivari-inner{
+	color: black;
+	font-size: 12px;
+/*	font-weight: 600;*/
+/*	background: black;*/
+}
+.menu{
+	width: 100%;
+}
+.collapse ul{
+	margin: 0;
+	padding: 0;
+}
+.collapse ul li{
+	margin: 0;
+	padding: 0;
+}
+.collapse ul li a{
+	color: black;
+	font-size: 16px;
+	margin-left: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.menu{
+	padding-bottom: 50px;
+}
+/*header-section-end*/
+
+/*banner-section-start*/
+.banner-left-inner{
+	width: 100%;
+}
+.sub-title{
+	width: 67%;
+font-weight: 600;
+	text-align: center;
+/*	background: pink;*/
+	border: 2px black dashed ;
+}
+.sub-title p{
+	margin-top: 10px;
+}
+.banner-inner-left h1{
+	font-weight: 1000;
+	color: black;
+	text-transform: uppercase;
+	font-size: 100px;
+	padding-top: 30px;
+	color: #3d2514;
+	text-shadow:  3px 4px 3px white;	
+
+}
+.banner-inner-left h2{
+	font-size: 50px;
+	font-weight: 900;
+	color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px white;
+}
+.banner-img img{
+	width: 100%;
+	height: 400px;
+}
+.banner-img{
+	position: relative;
+}
+
+.price-overly{
+	position: absolute;
+	top: 220px;
+	left: 60px;
+	width: 150px;
+	height: 150px;
+	background: #bf2222;
+
+	border-radius: 50%;
+	padding: 10px;
+}
+.dash{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+
+	border: 2px white dashed;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.rate{
+	display: flex;
+}
+.dash .dam .rate h1{
+font-weight: 600;
+color: white;
+}
+.dash .dam .rate p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: white;
+}
+.dash p{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: -10px;
+	letter-spacing: 3px;
+	color: white;
+}
+.dam{
+	margin: 20px 0px 0px 30px;
+}
+/*banner-section-end*/
+
+/*banner-under-section-start*/
+.banner-under{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner-under-pic{
+	position: relative;
+	width: 100%;
+}
+.banner-under-pic img{
+	width: 100%;
+}
+.burger-overlay{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	color: white;
+	text-transform: uppercase;
+
+}
+.burger-overlay p{
+	font-weight: 700;
+	padding-top: 20px;
+
+}
+.burger-overlay h5{
+	font-weight: 600;
+	padding-right: 50px;
+	font-size: 20px;
+	margin-top: -10px;
+}
+.burger-right-pic{
+	width: 100%;
+}
+.img1{
+	width: 100%;
+	height: 178px;
+	position: relative;
+
+}
+.img1 img{
+	width: 100%;
+	height: 100%;
+}
+.img2{
+	position: relative;
+	margin-top: 25px;
+	width: 100%;
+	height: 178px;
+}
+.img2 img{
+	width: 100%;
+	height: 100%;
+}
+.img-overly{
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	color: white;
+}
+.img-overly h5{
+
+text-transform: uppercase;
+font-weight: 600;
+}
+.img-overly h2{
+
+text-transform: uppercase;
+font-weight: 600;
+padding-right: 300px;
+line-height: 35px;
+}
+/*banner-under-section-end*/
+
+
+/*choos-section-strate*/
+.choos-section{
+	width: 100%;
+	padding: 50px 0px;
+}
+.title-inner{
+	width: 100%;
+	text-align: center;
+
+}
+.title-inner h6{
+	background: #ffc045;
+	width: 210px;
+	padding: 7px 0px;
+	color: black;
+	font-weight: 600;
+	margin: 0 auto;
+
+}
+.title-inner h1{
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #3d2514;
+	padding-top: 30px;
+}
+.title-inner p{
+padding: 0px 100px;
+padding: 30px 0px;
+}
+.choos-burger{
+	width: 100%;
+	text-align: center;
+}
+
+.burger-pic{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.burger-pic img{
+	width: 90%;
+}
+.burger-pic .b-im{
+	height: 260px;
+}
+.choos-burger h4{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.choos-burger p{
+	padding: 0px 30px;
+}
+.choos-button {
+	margin-top: 30px;
+}
+.choos-button a{
+	padding: 10px 30px;
+	background: #bf2222;
+	border-radius: 5px;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/*choos-section-end*/
+
+/*upcoming-section-start*/
+.uppcoming{
+	width: 100%;
+	padding: 80px 0px;
+}
+.uppcoming-inner{
+	padding: 20px 20px;
+	box-shadow: 5px 4px 15px -10px;
+}
+.discover{
+	width: 100%;
+}
+.discover h6{
+	font-weight: 600;
+}
+.discover h1{
+color: #3d2514;
+	font-weight: 900;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.discover p{
+	padding: 10px 30px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.uppcoming-pic img{
+	width: 100%;
+}
+.upp-inner{
+	padding-top: 30px;
+}
+.upp-inner h6{
+	font-weight: 600;
+	color: #808080;
+}
+.upp-inner h1{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.upp-inner p{
+	margin-top: 30px;
+	padding-right: 100px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:yellow!important;
+}
+/*upcoming-section-end*/
+
+/*booking-section-start*/
+.booking-section{
+	width: 100%;
+
+	padding: 80px 0px;
+
+
+}
+.booking-inner{
+	width: 70%;
+	margin: 0 auto;
+}
+.booking-img{
+	width: 100%;
+	position: relative;
+
+}
+.booking-img img{
+	width: 150px;
+	position: absolute;
+/*	top: 50px;*/
+
+}
+
+.booking-img .c-pic2{
+	position: absolute;
+	width: 150px;
+	height: 200px;
+	top:100px;
+	left:150px;
+}
+.booking-img .c-pic3{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 200px;
+	height: auto;
+}
+.booking-title{
+	width: 100%;
+	text-align: center;
+
+}
+.booking-title h6{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+.booking-title h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #3d2514;
+	padding-bottom: 30px;
+}
+
+.input-inner form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.input-inner form input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.batton{
+	width: 100%;
+	background: #bf2222;
+	text-align: center;
+	padding: 12px 0px;
+	border-radius: 5px;
+
+}
+.batton a{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px 0px;
+/*	padding: 10px 100px;*/
+
+}
+.booking-section .input-inner form input:focus-within{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/*booking-section-end*/
+
+/*foter-section-start*/
+.foter-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: url(../images/fb.png) center top no-repeat;
+	background-size: cover;
+}
+.foter-inner{
+	width: 100%;
+}
+.foter-inner img{
+	width: 250px;
+
+}
+
+.foter-inner p{
+	margin-top: 30px;
+	padding-right: 20px;
+}
+.foter-icon{
+	width: 100%;
+	margin-top: 90px;
+}
+.foter-icon li{
+margin: 0;
+margin-left: 250px;
+list-style: none;
+padding: 10px 0px;
+}
+.foter-icon li i{
+	font-size: 20px;
+	margin-right: 20px;
+}
+.foter-icon li .fa-map-marker{
+	font-size: 30px;
+
+}
+ .foter-end-icon{
+	width: 100%;
+	text-align: right;
+}
+.foter-end-icon a{
+	margin-left: 10px;
+
+}
+.foter-end-icon a i{
+	color: white;
+	
+}
+.foter-end-icon a i:hover{
+	background: white;
+	border-radius: 50%;
+	padding: 10px;
+	color: black;
+}
+.end{
+	margin-top: 200px;
+}
+.end-row{
+	margin-top: 30px;
+}
+/*foter-section-end*/
